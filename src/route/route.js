@@ -6,7 +6,7 @@ import PhotosPage from '@/pages/PhotosPage.vue';
 import ContentPage from '@/pages/ContentPage.vue';
 
 const routes = [
-  { path: '/', redirect: ContentPage },
+  { path: '/', component: ContentPage },
   { path: '/home', component: ContentPage },
   { path: '/about', component: AboutPage },
   { path: '/profile', component: ProfilePage },
